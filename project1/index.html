@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Mita Kania - Calculator</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Mobile Web Specialist 2018">
+		<meta name="theme-color" content="#add8e6"/>
+
+		<link rel="shortcut icon" type="image/png" href="../images/logo.png">
+		<link rel="manifest" href="../manifest.json">
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="menu">
+				<a href=".." aria-label="Back to home">
+					<img class="logo" src="../images/logo.jpg" alt="Logo MT.K">
+				</a>
+				<div class="caption">
+					Simple and Awesome
+				</div>
+			</div>
+			
+			<div class="content-full">
+				<h1>Calculator</h1>
+				<div class="calc">
+					<input type="text" size="5" placeholder="0" aria-label="Number 1"/>
+					<span class="operator">+</span>
+					<input type="text" size="5" placeholder="0" aria-label="Number 2"/>
+					<button> = </button>
+					<input type="text" size="5" title="Result" aria-label="Result" readonly />
+
+					<!-- <p id="message"></p> -->
+				</div> 
+			</div>
+			
+			<div class="footer">
+				<a href="http://mitakania.com" target="_blank" rel="noreferrer"
+					aria-label="My personal website">Mita Kania</a>
+			</div>
+		</div>
+
+		<script type="application/javascript" src="add2numbers.js"></script>
+		<script type="application/javascript" src="../js/main.js"></script>
+	</body>
+</html>
